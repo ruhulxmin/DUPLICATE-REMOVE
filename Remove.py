@@ -3,7 +3,7 @@
 from os import system as clr
 clr('clear')
 print(60*'~')
-print("      =>DUPLICATE ID REMOVER FROM FILE  ")
+print("      =>DUPLICATE ID REMOVER FROM FILE BY REX ")
 print("      =>CODED BY          :RUHUL AMIN BOKSHI ")
 print("      =>Facebook          :Ruhul Xmin BokXi ")
 print("      =>Github            :ruhulxmin ")
