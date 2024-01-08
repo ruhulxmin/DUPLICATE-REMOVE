@@ -2,9 +2,12 @@
 #https://github.com/ruhulxmin
 from os import system as clr
 clr('clear')
-print("        DUPLICATE ID REMOVER ")
-print("        CODED BY : MR.DIPTO ")
-print(40*'-')
+print(60*'~')
+print("      =>DUPLICATE ID REMOVER FROM FILE  ")
+print("      =>CODED BY          :RUHUL AMIN BOKSHI")
+print("      =>Facebook          :Ruhul Xmin BokXi
+print("      =>Github            :ruhulxmin
+print(60*'~')
 input_file = input("INPUT FILE NAME : ")
 output_file = input("OUTPUT FILE NAME : ")
 unique_ids = {}
