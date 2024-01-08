@@ -4,9 +4,9 @@ from os import system as clr
 clr('clear')
 print(60*'~')
 print("      =>DUPLICATE ID REMOVER FROM FILE  ")
-print("      =>CODED BY          :RUHUL AMIN BOKSHI")
-print("      =>Facebook          :Ruhul Xmin BokXi
-print("      =>Github            :ruhulxmin
+print("      =>CODED BY          :RUHUL AMIN BOKSHI ")
+print("      =>Facebook          :Ruhul Xmin BokXi ")
+print("      =>Github            :ruhulxmin ")
 print(60*'~')
 input_file = input("INPUT FILE NAME : ")
 output_file = input("OUTPUT FILE NAME : ")
