@@ -2,10 +2,6 @@
 #https://github.com/ruhulxmin
 from os import system as clr
 clr('clear')
-`7MM"""Mq. `7MM"""YMM `YMM' `MP' MM `MM. MM `7 VMb. ,P MM ,M9 MM d `MM.M' MMmmdM9 MMmmMM MMb MM YM. MM Y , ,M'`Mb. MM `Mb. MM ,M ,P `MM. .JMML. .JMM..JMMmmmmMMM .MM:. .:MMa. 
-
-
-
 print(60*'~')
 print("      =>DUPLICATE ID REMOVER FROM FILE BY REX ")
 print("      =>CODED BY   -  - :RUHUL AMIN BOKSHI ")
